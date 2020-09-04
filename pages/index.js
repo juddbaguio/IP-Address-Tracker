@@ -37,6 +37,7 @@ function Home() {
               <img src="/assets/icon-arrow.svg" alt="search" className={styles.image}/>
             </div>
           </div>
+          <h1 style={{color: 'black'}}>Latitude: {coordinates[0]}, Longitude: {coordinates[1]}</h1>
       </header>
       <Map lat={coordinates[0]} lng={coordinates[1]} />
     </div>
