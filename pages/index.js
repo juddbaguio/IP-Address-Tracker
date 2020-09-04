@@ -38,6 +38,7 @@ function Home() {
             </div>
           </div>
           <h1 style={{color: 'black'}}>Latitude: {coordinates[0]}, Longitude: {coordinates[1]}</h1>
+          <h3>By Judd Misael R. Baguio</h3>
       </header>
       <Map lat={coordinates[0]} lng={coordinates[1]} />
     </div>
